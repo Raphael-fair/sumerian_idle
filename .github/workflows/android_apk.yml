@@ -29,6 +29,8 @@ jobs:
           python -m unittest discover -s tests
           python main.py --prepare-android
       - name: Build Android APK
+        env:
+          BUILDOZER_WARN_ON_ROOT: '0'
         run: buildozer -v android debug
       - name: Upload debug APK
         uses: actions/upload-artifact@v4
