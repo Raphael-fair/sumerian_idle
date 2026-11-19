@@ -7,7 +7,7 @@
     "fullscreen": false,
     "version": "1.0.0",
     "version_code": 10,
-    "min_api": 23,
+    "min_api": 24,
     "target_api": 35,
     "accept_sdk_license": true,
     "architectures": [
