@@ -31,7 +31,8 @@ class ReleaseTests(unittest.TestCase):
     def test_android_build_spec(self):
         spec = make_spec(self.build)
         for expected in ('requirements = python3,kivy', 'android.archs = arm64-v8a,armeabi-v7a',
-                         'source.include_exts = py,json,png,svg,wav', 'android.minapi = 23',
+                         'source.include_exts = py,json,png,svg,wav',
+                         f"android.minapi = {self.build['android']['min_api']}",
                          'source.dir = .', 'orientation = portrait'):
             self.assertIn(expected, spec)
 
