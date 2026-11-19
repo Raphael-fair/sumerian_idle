@@ -20,6 +20,7 @@ def make_spec(config):
         "orientation": android["orientation"],
         "fullscreen": "1" if android["fullscreen"] else "0",
         "android.api": str(android["target_api"]),
+        "android.accept_sdk_license": str(android["accept_sdk_license"]).lower(),
         "android.minapi": str(android["min_api"]),
         "android.archs": ",".join(android["architectures"]),
         "android.permissions": ",".join(android["permissions"]),
