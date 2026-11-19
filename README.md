@@ -1,9 +1,5 @@
-# Sumerian Idle
+# Sumerian Idle: Legacy of Uruk
 
-Python/Kivy Android game.
+Full Phase 10 game source is preserved in `release/source_bundle.zip`. The Android APK workflow extracts the complete project, publishes its individual files, runs tests, and builds the debug APK.
 
-## Android APK
-
-This repository is prepared for GitHub Actions APK builds. The complete Phase 10 game source must be uploaded before triggering the workflow.
-
-To build: Actions > Android APK > Run workflow.
+Open **Actions > Android APK** to monitor the build. Successful APKs appear under the workflow run's **Artifacts**.

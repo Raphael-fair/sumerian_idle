@@ -4,6 +4,7 @@ on:
   push:
     branches: [main]
     paths:
+      - 'release/source_bundle.zip'
       - 'main.py'
       - 'src/**'
       - 'config/**'
@@ -11,12 +12,28 @@ on:
       - 'tests/**'
       - 'buildozer.spec'
       - '.github/workflows/android_apk.yml'
+permissions:
+  contents: write
 jobs:
   build_android:
     runs-on: ubuntu-22.04
     timeout-minutes: 120
     steps:
       - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Extract and publish full project
+        run: |
+          if [ -f release/source_bundle.zip ]; then
+            unzip -oq release/source_bundle.zip -d .
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add -A
+            if ! git diff --cached --quiet; then
+              git commit -m "Publish extracted Sumerian Idle game sources"
+              git push
+            fi
+          fi
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
@@ -30,13 +47,13 @@ jobs:
           sudo apt-get install -y git zip unzip autoconf automake libtool pkg-config zlib1g-dev libncurses5-dev libncursesw5-dev libtinfo6 cmake libffi-dev libssl-dev libsqlite3-dev build-essential ccache liblzma-dev
           python -m pip install --upgrade pip
           python -m pip install 'cython<3.1' buildozer
-      - name: Test and prepare Android
+      - name: Test and generate build config
         run: |
           python -m unittest discover -s tests
           python main.py --prepare-android
       - name: Build APK
         run: buildozer -v android debug
-      - name: Upload APK
+      - name: Upload APK artifact
         uses: actions/upload-artifact@v4
         with:
           name: sumerian_idle_android_debug
