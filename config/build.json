@@ -1,0 +1,49 @@
+{
+  "android": {
+    "title": "Sumerian Idle",
+    "package_name": "sumerianidle",
+    "package_domain": "org.uruk",
+    "orientation": "portrait",
+    "fullscreen": false,
+    "version": "1.0.0",
+    "version_code": 10,
+    "min_api": 23,
+    "target_api": 35,
+    "architectures": [
+      "arm64-v8a",
+      "armeabi-v7a"
+    ],
+    "permissions": [],
+    "requirements": [
+      "python3",
+      "kivy"
+    ]
+  },
+  "runtime": {
+    "python": "3",
+    "framework": "kivy"
+  },
+  "target": "android",
+  "build_host": "WSL2 Ubuntu or Linux",
+  "packaging": {
+    "source_extensions": [
+      "py",
+      "json",
+      "png",
+      "svg",
+      "wav"
+    ],
+    "exclude_directories": [
+      "tests",
+      "__pycache__",
+      ".venv",
+      ".git"
+    ],
+    "exclude_patterns": [
+      "*.pyc",
+      "*.pyo",
+      "*.zip"
+    ],
+    "output_spec": "buildozer.spec"
+  }
+}

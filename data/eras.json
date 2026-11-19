@@ -1,0 +1,88 @@
+[
+  {
+    "id": "village",
+    "name": "Riverside Village",
+    "description": "A new home beside the rivers",
+    "requires_era": null,
+    "requires_research": [],
+    "requires_buildings": {},
+    "cost": {},
+    "bonus_rate": 0
+  },
+  {
+    "id": "town",
+    "name": "Growing Town",
+    "description": "The first streets connect your workshops",
+    "requires_era": "village",
+    "requires_research": [
+      "irrigation"
+    ],
+    "requires_buildings": {
+      "house": 1,
+      "clay_pit": 1
+    },
+    "cost": {
+      "barley": 180,
+      "clay": 100,
+      "reeds": 60
+    },
+    "bonus_rate": 0.1
+  },
+  {
+    "id": "city",
+    "name": "City of Uruk",
+    "description": "Organized labor raises stone and brick",
+    "requires_era": "town",
+    "requires_research": [
+      "pottery"
+    ],
+    "requires_buildings": {
+      "kiln": 1,
+      "bakery": 1
+    },
+    "cost": {
+      "bricks": 120,
+      "bread": 90,
+      "barley": 200
+    },
+    "bonus_rate": 0.15
+  },
+  {
+    "id": "city_state",
+    "name": "Sumerian City-State",
+    "description": "A royal court and civic works flourish",
+    "requires_era": "city",
+    "requires_research": [
+      "cuneiform"
+    ],
+    "requires_buildings": {
+      "granary": 2,
+      "house": 3
+    },
+    "cost": {
+      "bricks": 250,
+      "bread": 200,
+      "clay": 250
+    },
+    "bonus_rate": 0.2
+  },
+  {
+    "id": "golden_age",
+    "name": "Golden Age",
+    "description": "A lasting civilization of scholars and traders",
+    "requires_era": "city_state",
+    "requires_research": [
+      "astronomy"
+    ],
+    "requires_buildings": {
+      "farm": 5,
+      "kiln": 3
+    },
+    "cost": {
+      "bricks": 500,
+      "bread": 420,
+      "barley": 550
+    },
+    "bonus_rate": 0.25
+  }
+]

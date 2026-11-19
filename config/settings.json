@@ -1,0 +1,71 @@
+{
+  "app_name": "Sumerian Idle: Legacy of Uruk",
+  "save_file": "sumerian_idle_save.json",
+  "desktop_preview": [
+    400,
+    800
+  ],
+  "min_touch_dp": 52,
+  "screen_padding_dp": 12,
+  "spacing_dp": 8,
+  "offline_cap_seconds": 28800,
+  "ticks_per_second": 1,
+  "starting_resources": {
+    "barley": 100,
+    "clay": 60,
+    "reeds": 40,
+    "bricks": 0,
+    "bread": 0
+  },
+  "starting_buildings": {
+    "farm": 1,
+    "clay_pit": 0,
+    "reed_garden": 0,
+    "kiln": 0,
+    "bakery": 0,
+    "granary": 0,
+    "house": 0
+  },
+  "base_tap_yield": 5,
+  "building_cost_growth": 1.55,
+  "world_columns": 2,
+  "title": "LEGACY OF URUK",
+  "subtitle": "A settlement becomes a civilization",
+  "storage_limits": {
+    "barley": 500,
+    "clay": 400,
+    "reeds": 350,
+    "bricks": 250,
+    "bread": 250
+  },
+  "storage_upgrade_multiplier": 1.5,
+  "simulation_step_seconds": 1,
+  "offline_report_threshold_seconds": 60,
+  "starting_population": 8,
+  "starting_assignments": {},
+  "population_base_capacity": 8,
+  "housing_capacity_per_home": 4,
+  "growth_interval_seconds": 90,
+  "growth_bread_cost": 2,
+  "growth_barley_cost": 5,
+  "citizen_food_interval_seconds": 120,
+  "citizen_food_per_person": 0.1,
+  "workforce_default_priority": [
+    "farm",
+    "clay_pit",
+    "reed_garden",
+    "bakery",
+    "kiln"
+  ],
+  "worker_productivity_per_person": 1,
+  "max_display_citizens": 12,
+  "legacy_renown_bonus_per_rank": 0.03,
+  "legacy_renown_per_rank": 3,
+  "autosave_seconds": 30,
+  "simulation_max_batch_steps": 28800,
+  "display": {
+    "softinput_mode": "below_target",
+    "keyboard_animation_args": {},
+    "fps_limit": 30
+  }
+}

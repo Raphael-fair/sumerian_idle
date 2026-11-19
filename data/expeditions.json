@@ -1,0 +1,90 @@
+[
+  {
+    "id": "reed_marsh",
+    "name": "Reed Marshes",
+    "description": "Scout the fertile marshland",
+    "requires": [],
+    "cost": {
+      "reeds": 15,
+      "barley": 25
+    },
+    "duration_seconds": 45,
+    "rewards": {
+      "clay": 35,
+      "reeds": 40
+    },
+    "artifact": "marsh_seal"
+  },
+  {
+    "id": "river_delta",
+    "name": "River Delta",
+    "description": "Follow the waterways",
+    "requires": [
+      "irrigation"
+    ],
+    "cost": {
+      "barley": 70,
+      "reeds": 55
+    },
+    "duration_seconds": 110,
+    "rewards": {
+      "barley": 95,
+      "clay": 70
+    },
+    "artifact": "river_tablet"
+  },
+  {
+    "id": "ancient_quarry",
+    "name": "Ancient Quarry",
+    "description": "Uncover ancient brick ruins",
+    "requires": [
+      "pottery"
+    ],
+    "cost": {
+      "bread": 20,
+      "clay": 55
+    },
+    "duration_seconds": 170,
+    "rewards": {
+      "bricks": 80,
+      "clay": 100
+    },
+    "artifact": "lapis_token"
+  },
+  {
+    "id": "trade_route",
+    "name": "Caravan Road",
+    "description": "Follow signs of lost traders",
+    "requires": [
+      "riverboats"
+    ],
+    "cost": {
+      "bread": 65,
+      "bricks": 60
+    },
+    "duration_seconds": 260,
+    "rewards": {
+      "barley": 180,
+      "reeds": 110
+    },
+    "artifact": "merchant_weight"
+  },
+  {
+    "id": "star_temple",
+    "name": "Star Temple",
+    "description": "Explore a ruined observatory",
+    "requires": [
+      "astronomy"
+    ],
+    "cost": {
+      "bread": 90,
+      "bricks": 105
+    },
+    "duration_seconds": 380,
+    "rewards": {
+      "clay": 190,
+      "bricks": 120
+    },
+    "artifact": "star_disc"
+  }
+]

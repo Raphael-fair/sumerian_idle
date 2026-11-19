@@ -1,0 +1,140 @@
+{
+  "colors": {
+    "background": "#1D2530",
+    "panel": "#344352",
+    "card": "#455461",
+    "accent": "#F2C783",
+    "secondary": "#91D9C6",
+    "text": "#FFF1D7",
+    "muted": "#C9B9A5",
+    "button": "#765848",
+    "success": "#A6D49A"
+  },
+  "font_size": {
+    "title": 24,
+    "heading": 18,
+    "body": 15,
+    "small": 12
+  },
+  "card_height_dp": 172,
+  "header_height_dp": 142,
+  "footer_height_dp": 65,
+  "corner_radius_dp": 18,
+  "button_radius_dp": 12,
+  "background_sky": "#425B71",
+  "background_land": "#B9905F",
+  "background_water": "#559CAC",
+  "scene_caption_height_dp": 34,
+  "world_labels": {
+    "house": "Residential Quarter: future housing upgrades",
+    "ziggurat": "Great Ziggurat: future temple progression"
+  },
+  "resource_rows": 2,
+  "archive_card_height_dp": 130,
+  "archive_filter_height_dp": 48,
+  "archive_collection_height_dp": 122,
+  "archive_filters": [
+    "All",
+    "Harvest",
+    "Economy",
+    "Construction",
+    "Crafting",
+    "Citizens",
+    "Legacy",
+    "Secrets",
+    "Research",
+    "Exploration",
+    "Eras",
+    "Monuments",
+    "Royal"
+  ],
+  "archive_page_size": 35,
+  "archive_tier_colors": {
+    "Bronze": "#C9A16E",
+    "Copper": "#DDAA80",
+    "Silver": "#D9E5E9",
+    "Gold": "#F2C783",
+    "Secret": "#91D9C6"
+  },
+  "progression_card_height_dp": 150,
+  "progression_heading_height_dp": 48,
+  "expedition_time_display_precision": 0,
+  "progression_page_names": [
+    "City",
+    "Build",
+    "People",
+    "Discover",
+    "Legacy"
+  ],
+  "legacy_tabs": [
+    "Achievements",
+    "Civilization"
+  ],
+  "civilization_tabs": [
+    "Eras",
+    "Monuments",
+    "Quests"
+  ],
+  "feedback": {
+    "toast_height_dp": 40,
+    "toast_duration_seconds": 2.6,
+    "achievement_duration_seconds": 4.5,
+    "button_min_height_dp": 48,
+    "pulse_animate": true
+  },
+  "sound": {
+    "enabled": true,
+    "volume": 0.4,
+    "file_extension": "wav",
+    "effects": {
+      "tap": {
+        "frequency": 540,
+        "duration": 0.085,
+        "harmonic": 0.24
+      },
+      "build": {
+        "frequency": 380,
+        "duration": 0.21,
+        "harmonic": 0.18
+      },
+      "achievement": {
+        "frequency": 790,
+        "duration": 0.42,
+        "harmonic": 0.3
+      },
+      "error": {
+        "frequency": 165,
+        "duration": 0.13,
+        "harmonic": 0.1
+      },
+      "research": {
+        "frequency": 610,
+        "duration": 0.3,
+        "harmonic": 0.22
+      }
+    }
+  },
+  "responsive": {
+    "single_column_below_dp": 430,
+    "compact_navigation_below_dp": 450,
+    "small_screen_below_dp": 680,
+    "small_screen_header_dp": 104,
+    "small_screen_footer_dp": 58,
+    "small_screen_scene_dp": 230,
+    "small_screen_title_size_dp": 18,
+    "compact_page_names": {
+      "City": "City",
+      "Build": "Build",
+      "People": "People",
+      "Discover": "Explore",
+      "Legacy": "Legacy"
+    },
+    "wide_page_names": {
+      "City": "City",
+      "Build": "Build",
+      "People": "People",
+      "Discover": "Discover",
+      "Legacy": "Legacy"
+    }
+  }
+}

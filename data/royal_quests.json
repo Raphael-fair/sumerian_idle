@@ -1,0 +1,77 @@
+[
+  {
+    "id": "first_commission",
+    "name": "The King Needs Grain",
+    "description": "Prove that your village can feed the royal court",
+    "era": "village",
+    "event": "produce_barley",
+    "target": 150,
+    "cost": {
+      "barley": 80
+    },
+    "rewards": {
+      "clay": 50
+    },
+    "renown": 1
+  },
+  {
+    "id": "mudbrick_contract",
+    "name": "Mudbrick Contract",
+    "description": "Supply the builders of Uruk",
+    "era": "town",
+    "event": "produce_bricks",
+    "target": 120,
+    "cost": {
+      "bricks": 60
+    },
+    "rewards": {
+      "barley": 100
+    },
+    "renown": 1
+  },
+  {
+    "id": "bread_for_festival",
+    "name": "Bread for the Festival",
+    "description": "Stock the city for the celebration",
+    "era": "city",
+    "event": "produce_bread",
+    "target": 120,
+    "cost": {
+      "bread": 75
+    },
+    "rewards": {
+      "reeds": 90
+    },
+    "renown": 2
+  },
+  {
+    "id": "populated_capital",
+    "name": "A Living Capital",
+    "description": "Provide homes for generations",
+    "era": "city_state",
+    "event": "citizen_born",
+    "target": 8,
+    "cost": {
+      "bread": 120
+    },
+    "rewards": {
+      "bricks": 120
+    },
+    "renown": 2
+  },
+  {
+    "id": "royal_explorers",
+    "name": "The King\u2019s Explorers",
+    "description": "Send expeditions to every corner",
+    "era": "golden_age",
+    "event": "expedition_completed",
+    "target": 8,
+    "cost": {
+      "reeds": 200
+    },
+    "rewards": {
+      "clay": 150
+    },
+    "renown": 3
+  }
+]

@@ -1,0 +1,140 @@
+{
+  "scene": {
+    "image": "landscape",
+    "aspect_ratio": 1.476923076923077,
+    "min_height_dp": 260,
+    "max_height_dp": 440
+  },
+  "decorations": [
+    {
+      "id": "farm",
+      "image": "farm",
+      "x": 0.025,
+      "y": 0.21,
+      "width": 0.17,
+      "height": 0.57,
+      "requires": "farm",
+      "animation": "breeze"
+    },
+    {
+      "id": "house",
+      "image": "house",
+      "x": 0.22,
+      "y": 0.35,
+      "width": 0.17,
+      "height": 0.49,
+      "animation": "breeze"
+    },
+    {
+      "id": "ziggurat",
+      "image": "ziggurat",
+      "x": 0.4,
+      "y": 0.33,
+      "width": 0.19,
+      "height": 0.61,
+      "animation": "temple"
+    },
+    {
+      "id": "clay_pit",
+      "image": "clay_pit",
+      "x": 0.63,
+      "y": 0.21,
+      "width": 0.16,
+      "height": 0.51,
+      "requires": "clay_pit",
+      "animation": "shimmer"
+    },
+    {
+      "id": "reed_garden",
+      "image": "reed_garden",
+      "x": 0.8,
+      "y": 0.19,
+      "width": 0.18,
+      "height": 0.59,
+      "requires": "reed_garden",
+      "animation": "breeze"
+    }
+  ],
+  "world": {
+    "height_dp": 310,
+    "width_multiplier": 2.6,
+    "min_width_dp": 900,
+    "background_tiles": 3,
+    "animation_fps": 20,
+    "max_animation_step": 0.08,
+    "scrollbar_dp": 3
+  },
+  "animations": {
+    "breeze": {
+      "speed": 1.6,
+      "phase": 0,
+      "bob": 0.008,
+      "opacity_base": 0.94,
+      "opacity_range": 0.06
+    },
+    "shimmer": {
+      "speed": 2.8,
+      "phase": 1.1,
+      "bob": 0.003,
+      "opacity_base": 0.84,
+      "opacity_range": 0.14
+    },
+    "temple": {
+      "speed": 0.8,
+      "phase": 0.5,
+      "bob": 0.002,
+      "opacity_base": 0.95,
+      "opacity_range": 0.05
+    }
+  },
+  "citizens": {
+    "max_visible": 12,
+    "walk_speed": 0.022,
+    "walk_amplitude": 0.055,
+    "base_y": 0.16,
+    "starting_x": 0.08,
+    "spacing_x": 0.072,
+    "body_width": 0.012,
+    "body_height": 0.055,
+    "head_size": 0.016,
+    "colors": [
+      "#E8A96E",
+      "#9DD2B7",
+      "#E6C77C",
+      "#C58A76"
+    ],
+    "animation_speed": 1.5,
+    "corner_radius_dp": 3,
+    "min_body_width_dp": 5,
+    "min_head_size_dp": 6,
+    "head_color": "#F5CC91",
+    "head_vertical_offset": 0.76,
+    "head_horizontal_offset": 0.1,
+    "vertical_bob": 0.009,
+    "vertical_speed": 5
+  },
+  "effects": {
+    "enabled": true,
+    "max_particles": 28,
+    "spark_count": 9,
+    "spark_lifetime": 0.78,
+    "spark_speed_dp": 92,
+    "spark_gravity_dp": 115,
+    "spark_radius_dp": 3.2,
+    "spark_colors": [
+      "#F2C783",
+      "#91D9C6",
+      "#FFF1D7"
+    ],
+    "ambient_count": 11,
+    "ambient_speed": 0.014,
+    "ambient_radius_dp": 2.1,
+    "ambient_opacity": 0.42,
+    "pulse_lifetime": 0.48,
+    "pulse_radius_dp": 42,
+    "pulse_width_dp": 2,
+    "day_cycle_seconds": 180,
+    "night_overlay_opacity": 0.18,
+    "animation_fps": 24
+  }
+}

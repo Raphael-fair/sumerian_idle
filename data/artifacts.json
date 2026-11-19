@@ -1,0 +1,32 @@
+[
+  {
+    "id": "marsh_seal",
+    "name": "Marsh Cylinder Seal",
+    "description": "Clay seal from marsh traders",
+    "secret": false
+  },
+  {
+    "id": "river_tablet",
+    "name": "Flood Ledger",
+    "description": "Tablet describing a historic flood",
+    "secret": false
+  },
+  {
+    "id": "lapis_token",
+    "name": "Lapis Amulet",
+    "description": "Lapis-colored token from ancient ruins",
+    "secret": false
+  },
+  {
+    "id": "merchant_weight",
+    "name": "Merchant Weight",
+    "description": "Weight used for distant trade",
+    "secret": true
+  },
+  {
+    "id": "star_disc",
+    "name": "Celestial Disc",
+    "description": "Disc of celestial observations",
+    "secret": true
+  }
+]

@@ -1,0 +1,92 @@
+{
+  "farm": {
+    "name": "Barley Farm",
+    "description": "Fields beside the river",
+    "produces": "barley",
+    "rate": 1.0,
+    "cost": {
+      "barley": 40,
+      "clay": 15
+    },
+    "accent": "#D8B55F"
+  },
+  "clay_pit": {
+    "name": "Clay Pit",
+    "description": "Bricks for a growing city",
+    "produces": "clay",
+    "rate": 0.5,
+    "cost": {
+      "barley": 60,
+      "reeds": 20
+    },
+    "accent": "#B97557"
+  },
+  "reed_garden": {
+    "name": "Reed Garden",
+    "description": "Material for mats and boats",
+    "produces": "reeds",
+    "rate": 0.4,
+    "cost": {
+      "barley": 70,
+      "clay": 25
+    },
+    "accent": "#88B18B"
+  },
+  "kiln": {
+    "name": "Brick Kiln",
+    "description": "Turn river clay and reeds into fired bricks",
+    "produces": "bricks",
+    "rate": 0.2,
+    "consumes": {
+      "clay": 0.6,
+      "reeds": 0.2
+    },
+    "cost": {
+      "barley": 120,
+      "clay": 80,
+      "reeds": 35
+    },
+    "accent": "#CB7B52"
+  },
+  "bakery": {
+    "name": "Village Bakery",
+    "description": "Convert barley into nourishing bread",
+    "produces": "bread",
+    "rate": 0.3,
+    "consumes": {
+      "barley": 0.8
+    },
+    "cost": {
+      "barley": 100,
+      "clay": 45,
+      "reeds": 15
+    },
+    "accent": "#E8BB75"
+  },
+  "granary": {
+    "name": "Great Granary",
+    "description": "Expand storage for every resource",
+    "produces": null,
+    "rate": 0,
+    "cost": {
+      "barley": 160,
+      "clay": 100,
+      "reeds": 45
+    },
+    "accent": "#D7B678",
+    "storage_multiplier": 1.5
+  },
+  "house": {
+    "name": "Mudbrick Home",
+    "description": "Provides shelter for four citizens",
+    "produces": null,
+    "rate": 0,
+    "cost": {
+      "barley": 35,
+      "clay": 40,
+      "reeds": 10
+    },
+    "accent": "#CDA57C",
+    "housing": 4
+  }
+}

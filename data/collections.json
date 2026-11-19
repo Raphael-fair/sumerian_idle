@@ -1,0 +1,74 @@
+[
+  {
+    "id": "first_foundations",
+    "name": "First Foundations",
+    "description": "Complete early achievements in farming, building and citizens",
+    "required": [
+      "first_harvest",
+      "foundations",
+      "first_home"
+    ],
+    "reward_cosmetic": "founder_banner",
+    "points": 25
+  },
+  {
+    "id": "river_crafts",
+    "name": "River Crafts",
+    "description": "Master river resources",
+    "required": [
+      "master_of_mud",
+      "river_keeper",
+      "brickmaker"
+    ],
+    "reward_cosmetic": "river_mosaic",
+    "points": 25
+  },
+  {
+    "id": "bread_and_hearth",
+    "name": "Bread and Hearth",
+    "description": "Feed and house the settlement",
+    "required": [
+      "bread_for_all",
+      "first_child",
+      "citizen_care"
+    ],
+    "reward_cosmetic": "hearth_banner",
+    "points": 25
+  },
+  {
+    "id": "bronze_artisan",
+    "name": "Bronze Artisan",
+    "description": "Earn bronze crafting seals",
+    "required": [
+      "produce_bricks_copper",
+      "produce_bread_copper",
+      "materials_consumed_copper"
+    ],
+    "reward_cosmetic": "artisan_standard",
+    "points": 25
+  },
+  {
+    "id": "great_city",
+    "name": "Great City",
+    "description": "Construct and populate Uruk",
+    "required": [
+      "build_copper",
+      "build_house_copper",
+      "citizen_born_copper"
+    ],
+    "reward_cosmetic": "city_gate",
+    "points": 25
+  },
+  {
+    "id": "golden_legacy",
+    "name": "Golden Legacy",
+    "description": "Complete three gold legacy challenges",
+    "required": [
+      "tap_gold",
+      "build_gold",
+      "offline_production_gold"
+    ],
+    "reward_cosmetic": "royal_standard",
+    "points": 25
+  }
+]

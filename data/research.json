@@ -1,0 +1,139 @@
+[
+  {
+    "id": "irrigation",
+    "name": "Canal Engineering",
+    "description": "Improve water channels",
+    "requires": [],
+    "cost": {
+      "barley": 80,
+      "clay": 35
+    },
+    "bonus_building": "farm",
+    "bonus_rate": 0.15
+  },
+  {
+    "id": "pottery",
+    "name": "Pottery Craft",
+    "description": "Learn shaped clay vessels",
+    "requires": [],
+    "cost": {
+      "clay": 90,
+      "reeds": 30
+    },
+    "bonus_building": "clay_pit",
+    "bonus_rate": 0.15
+  },
+  {
+    "id": "reed_script",
+    "name": "Reed Stylus",
+    "description": "Record the first harvests",
+    "requires": [],
+    "cost": {
+      "reeds": 100,
+      "barley": 60
+    },
+    "bonus_building": "reed_garden",
+    "bonus_rate": 0.15
+  },
+  {
+    "id": "brick_making",
+    "name": "Fired Brickwork",
+    "description": "Build durable kiln walls",
+    "requires": [
+      "pottery"
+    ],
+    "cost": {
+      "bricks": 50,
+      "clay": 110
+    },
+    "bonus_building": "kiln",
+    "bonus_rate": 0.2
+  },
+  {
+    "id": "bread_ovens",
+    "name": "Communal Ovens",
+    "description": "Upgrade shared baking",
+    "requires": [
+      "irrigation"
+    ],
+    "cost": {
+      "bread": 55,
+      "bricks": 30
+    },
+    "bonus_building": "bakery",
+    "bonus_rate": 0.2
+  },
+  {
+    "id": "cuneiform",
+    "name": "Cuneiform Tablets",
+    "description": "Keep royal records",
+    "requires": [
+      "reed_script",
+      "pottery"
+    ],
+    "cost": {
+      "clay": 140,
+      "reeds": 95
+    },
+    "bonus_building": "all",
+    "bonus_rate": 0.1
+  },
+  {
+    "id": "surveying",
+    "name": "Land Surveying",
+    "description": "Chart river boundaries",
+    "requires": [
+      "irrigation",
+      "reed_script"
+    ],
+    "cost": {
+      "bricks": 75,
+      "barley": 140
+    },
+    "bonus_building": "all",
+    "bonus_rate": 0.1
+  },
+  {
+    "id": "riverboats",
+    "name": "River Barges",
+    "description": "Travel beyond the settlement",
+    "requires": [
+      "surveying"
+    ],
+    "cost": {
+      "reeds": 170,
+      "bricks": 70
+    },
+    "bonus_building": "all",
+    "bonus_rate": 0.12
+  },
+  {
+    "id": "astronomy",
+    "name": "Star Observations",
+    "description": "Measure seasons and routes",
+    "requires": [
+      "cuneiform"
+    ],
+    "cost": {
+      "bread": 95,
+      "clay": 180
+    },
+    "bonus_building": "all",
+    "bonus_rate": 0.12
+  },
+  {
+    "id": "royal_archive",
+    "name": "Royal Archive",
+    "description": "Preserve the knowledge of Uruk",
+    "requires": [
+      "cuneiform",
+      "astronomy"
+    ],
+    "cost": {
+      "bricks": 160,
+      "bread": 130
+    },
+    "bonus_building": "all",
+    "bonus_rate": 0.15
+  }
+]

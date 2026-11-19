@@ -1,0 +1,57 @@
+[
+  {
+    "id": "canal_gate",
+    "name": "Gate of the Two Rivers",
+    "description": "An ornate gateway to the irrigation canals",
+    "era": "town",
+    "requires_research": [
+      "irrigation"
+    ],
+    "cost": {
+      "clay": 120,
+      "reeds": 80
+    },
+    "bonus_rate": 0.05
+  },
+  {
+    "id": "royal_storehouse",
+    "name": "Royal Storehouse",
+    "description": "Secure food for future generations",
+    "era": "city",
+    "requires_research": [],
+    "cost": {
+      "bricks": 100,
+      "barley": 140
+    },
+    "bonus_rate": 0.06
+  },
+  {
+    "id": "great_ziggurat",
+    "name": "Great Ziggurat",
+    "description": "Raise a sacred monument above Uruk",
+    "era": "city_state",
+    "requires_research": [
+      "cuneiform"
+    ],
+    "cost": {
+      "bricks": 240,
+      "clay": 200,
+      "reeds": 180
+    },
+    "bonus_rate": 0.1
+  },
+  {
+    "id": "star_observatory",
+    "name": "Temple of the Stars",
+    "description": "Track the heavens from the city summit",
+    "era": "golden_age",
+    "requires_research": [
+      "astronomy"
+    ],
+    "cost": {
+      "bricks": 400,
+      "bread": 240
+    },
+    "bonus_rate": 0.12
+  }
+]
